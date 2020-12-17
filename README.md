@@ -1,12 +1,12 @@
 # ppk1 Database for Designating Clades of Accumulibacter
 
-_Last updated: 2020-12-15_
+_Last updated: 2020-12-17_
 
 ## Database Contents 
 
 The _ppk1_ locus has been used to delineate the population structure of 'Candidatus Accumulibacter phosphatis' into distinct clades. This repository contains _ppk1_ gene sequences from select clones and genome accessions of Accumulibacter, and a workflow for 1) identifying _ppk1_ sequences in draft assemblies of Accumulibacter and 2) classifying the specific clade a given assembly belongs to. 
 
-- `sequences/` This directory contains FASTA-formatted files of both clone sequences (`ppk1-clone-sequences.fasta`) and _ppk1_ sequences from Accumulibacter genome accessions (`ppk1-refGenomes-coding-regions.fasta`). The clone sequences are not completely representative of all clone sequences, as studies such as Peterson et al. 2008 contain 1000s of sequences.
+- `sequences/` This directory contains FASTA-formatted files of both clone sequences (`ppk1-clone-sequences.fasta`) and _ppk1_ sequences from Accumulibacter genome accessions (`ppk1-refGenomes-coding-regions.fasta`). Also included are common outgroup _ppk1_ sequences (`outgroup-ppk1-coding-regions.fasta`) that are used to root the tree. Currently included are _ppk1_ sequences for _Dechloromonas aromatica_ and _Rhodocyclus tenuis_. The clone sequences are not completely representative of all clone sequences, as studies such as Peterson et al. 2008 contain 100s of sequences.
 
 - `ppk1-database-info.csv` Information for each _ppk1_ sequence from either a clone or genome accession. Gives the locus tag name in the FASTA-file (not specific to the study - arbitrarily given based on re-annotation), clade designation confirmed by phylogenetic placement, and study the sequence originated from. 
 
@@ -22,9 +22,9 @@ To identify and classify _ppk1_ sequences in your draft Accumulibacter assemblie
 
 2. Search for the _ppk1_ gene using the `ppk1.hmm` With HMMER, you can search with the `hmmsearch` function using as a first-pass an e-value of 1e-50. Usually the top-scoring hit is what you want. 
 
-3. Combine your _ppk1_ sequences with the clone and genome accession references. Align with `muscle` or `mafft` in nucleotide mode. This is done because some of the clone sequences are partial, and therefore left as nucleotides. 
+3. Combine your _ppk1_ sequences with the clone and genome accession references. Align with `muscle` or `mafft`. This is done because some of the clone sequences are partial, and therefore left as nucleotides. 
 
-4. Create a phylogenetic tree in nucleotide mode. I would recommend RAxML, as a nucleotide tree with this few sequences doesn't take that long and provides more confidence than something like FastTree. Visualize where your sequences fall in relation to previously designated clade boundaries. 
+4. Create a phylogenetic tree in nucleotide mode. I would recommend RAxML, as a nucleotide tree with this few sequences doesn't take that long and provides more confidence than something like FastTree. In a tree viewer, root the tree at the clade where the outgroup sequences are (usually very obvious, long branches). Visualize where your sequences fall in relation to previously designated clade boundaries. Clade assignments to _ppk1_ sequences from reference genomes and clones are given in the `ppk1-database-info.csv` file. 
 
 5. If the _ppk1_ sequence of your draft genome falls within a clade for which there is already a genome representative, these genomes should fall within 90%-100% ANI. Accumulibacter genomes not belonging to the same clade are usually closer to ~80% ANI, as the original IA and IIA references are similar only by 80% ANI. If your _ppk1_ sequence seems to fall within the tree but does not cluster well with the provided clone sequences and/or genome accessions, you will likely need to pull down more clone sequences. The largest collection of Accumulibacter-specific _ppk1_ sequences would be from Peterson et al. 2008 and Camejo et al. 2016, referenced below. 
 
