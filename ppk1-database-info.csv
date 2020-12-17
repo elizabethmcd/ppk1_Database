@@ -6,6 +6,8 @@ DQ868997,DQ868997.1,clone,UWMS_A8,IA,McMahon 2007
 GCA_000585075.1,GCA_000585075.1_LMKBKINC_00287,genome,Candidatus Accumulibacter sp. BA-93,IA,Skennerton 2014
 GCA_002455435.1,GCA_002455435.1_LJMNPMKE_00197,genome,Candidatus Accumulibacter phosphatis UBA6658,IA,Parks 2017
 GCA_009467855.1,GCA_009467855.1_FFHDGLOA_00684,genome,Candidatus Accumulibacter phosphatis CANDO_1,IA,Gao 2019
+UW4,UW4_BBLLADNB_00506,genome,Candidatus Accumulibacter phosphatis UW4,IA,McDaniel et al. 2020
+UW8-POB,coassembly-bin.12_NEBHPJKH_02141,genome,Candidatus Accumulibacter phosphatis UW8-POB,IA,McDaniel et al. 2021
 EU432875,EU432875.1,clone,BPBW2881,IB,Peterson 2008
 EU432878,EU432878.1,clone,BPBW2885,IB,Peterson 2008
 EU432879,EU432879.1,clone,BPBW2886,IB,Peterson 2008
@@ -29,8 +31,11 @@ KP738109,KP738109.1,clone,JA_23,II-I,Mao 2015
 EF559318,EF559318.1,clone,UWMS_B8,IIA,He 2007
 EF559339,EF559339.1,clone,NAN_D4,IIA,He 2007
 GCA_000024165.1,GCA_000024165.1_DGOCCOHL_01070,genome,Candidatus Accumulibacter phosphatis UW1,IIA,Garcia-Martin 2006
+UW5,UW5_GNJGOIBN_01044,genome,Candidatus Accumulibacter phosphatis UW5,IIA,McDaniel et al. 2020
+UW9-POB,POS2015-07-16-bin.58_MDFNDMIC_02139,genome,Candidatus Accumulibacter phosphatis UW9-POB,IIA,McDaniel et al. 2021
 EF559337,EF559337.1,clone,NAN_H2,IIB,He 2007
 EF559350,EF559350.1,clone,NS_H3,IIB,He 2007
+UW10-POB,POS2015-08-06-bin.38_GJNGNMCM_02976,genome,Candidatus Accumulibacter phosphatis UW10-POB,IIB,McDaniel et al. 2021
 EF559332,EF559332.1,clone,LV_D5,IIC,He 2007
 EF559333,EF559333.1,clone,LV_E6,IIC,He 2007
 GCA_000584955.2,GCA_000584955.2_BALNIADD_02612,genome,Candidatus Accumulibacter sp. SK-01,IIC,Skennerton 2014
@@ -38,10 +43,13 @@ GCA_000584975.2,GCA_000584975.2_FLOKBKCF_00068,genome,Candidatus Accumulibacter 
 GCA_000585035.2,GCA_000585035.2_BIOCIAGG_04430,genome,Candidatus Accumulibacter sp. BA-91,IIC,Skennerton 2014
 GCA_000987395.1,GCA_000987395.1_IJAMOEGB_03109,genome,Candidatus Accumulibacter phosphatis HKU2,IIC,Mao 2015
 GCA_002425405.1,GCA_002425405.1_NLEBCEFB_01950,genome,Candidatus Accumulibacter phosphatis UBA5574,IIC,Parks 2017
-GCA_005889575.1,GCA_005889575.1_AEPCJOJA_01401,genome,Candidatus Accumulibacter phosphatis Bin19,IIC,
+GCA_005889575.1,GCA_005889575.1_AEPCJOJA_01401,genome,Candidatus Accumulibacter phosphatis Bin19,IIC,na
+UW6,UW6_NHBDKAOG_02407,genome,Candidatus Accumulibacter phosphatis UW6,IIC,McDaniel et al. 2020
+UW11-POB,coassembly-bin.185_DDNMEPEE_00732,genome,Candidatus Accumulibacter phosphatis UW11-POB,IIC,McDaniel et al. 2021
 EF559353,EF559353.1,clone,NS_F11,IID,He 2007
 EU432609,EU432609.1,clone,BpbwW_51,IID,Peterson 2008
 EU433164,EU433164.1,clone,BPBW3681,IID,Peterson 2008
+UW12-POB,POS2015-07-24-bin.16_KIDBIGLJ_02792,genome,Candidatus Accumulibacter phosphatis UW12-POB,IID,McDaniel et al. 2021
 EU432715,EU432715.1,clone,BPBW2702,IIE,Peterson 2008
 EU432854,EU432854.1,clone,BPBW2806,IIE,Peterson 2008
 EU433103,EU433103.1,clone,BPBW3513,IIE,Peterson 2008
@@ -59,15 +67,17 @@ GCA_003487685.1,GCA_003487685.1_BPGNMNNK_01401,genome,Candidatus Accumulibacter 
 GCA_003535635.1,GCA_003535635.1_FMDBLDOA_00549,genome,Candidatus Accumulibacter sp. UBA11070,IIF,Parks 2017
 GCA_003542235.1,GCA_003542235.1_LHMBCMGL_01997,genome,Candidatus Accumulibacter sp. UBA9001,IIF,Parks 2017
 GCA_005524045.1,GCA_005524045.1_CHBPCNLK_00370,genome,Candidatus Accumulibacter sp. SCELSE-1,IIF,Qiu 2020
+UW7,UW7_CEKMHFBL_01627,genome,Candidatus Accumulibacter phosphatis UW7,IIF,McDaniel et al. 2020
+UW13-POB,POS2015-07-24-bin.54_CBBJMKLB_01263,genome,Candidatus Accumulibacter phosphatis UW13-POB,IIF,McDaniel et al. 2021
 EU432714,EU432714.1,clone,BPBW2699,IIG,Peterson 2008
 EU432725,EU432725.1,clone,BPBW2742,IIG,Peterson 2008
 EU432858,EU432858.1,clone,BPBW2825,IIG,Peterson 2008
 KP737972,KP737972.1,clone,DT_119,IIH,Mao 2015
 KP738019,KP738019.1,clone,DT_103,IIH,Mao 2015
 KP738077 ,KP738077.1,clone,GZ_9,IIH,Mao 2015
-GCA_000012425.1,GCA_000012425.1_PPKBJJNL_02919,genome_outgroup,Dechloromonas aromatica RCB,na,
-GCA_009617575.1,GCA_009617575.1_DDDFOMMO_00589,genome_outgroup,Rhodocyclus tenuis DSM 110,na,
-GCA_001897745.1,GCA_001897745.1_LNFOKPNO_00497,genome,Candidatus Accumulibacter sp. 66-26,na,
+GCA_000012425.1,GCA_000012425.1_PPKBJJNL_02919,genome_outgroup,Dechloromonas aromatica RCB,na,outgroup
+GCA_009617575.1,GCA_009617575.1_DDDFOMMO_00589,genome_outgroup,Rhodocyclus tenuis DSM 110,na,outgroup
+GCA_001897745.1,GCA_001897745.1_LNFOKPNO_00497,genome,Candidatus Accumulibacter sp. 66-26,na,na
 GCA_002304785.1,GCA_002304785.1_GBHPAPPJ_02574,genome,Candidatus Accumulibacter sp. UBA704,na,Parks 2017
 GCA_003538495.1,GCA_003538495.1_COGBHOPJ_04777,genome,Candidatus Accumulibacter sp. UBA11064,un,Parks 2017
 GCA_900089955.1,GCA_900089955.1_LKKGGHDO_04133,genome,Candidatus Accumulibacter aalborgensis,un,Albertsen 2016
