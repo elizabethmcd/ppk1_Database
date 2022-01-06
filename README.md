@@ -1,6 +1,6 @@
 # ppk1 Database for Designating Clades of Accumulibacter
 
-_Last updated: 2020-12-17_
+_Last updated: 2022-01-06_
 
 ## Database Contents 
 
@@ -20,9 +20,9 @@ To identify and classify _ppk1_ sequences in your draft Accumulibacter assemblie
 
 1. Confirm which genomes are preliminarily classified as Accumulibacter. You can do this by using the GTDB-tk (although GTDB also sometimes mis-classifies genomes that probably belong to Proponivibrio as Accumulibacter, so use caution), or pulling down known Accumulibacter references and compare with genome-wide ANI. If the pairwise ANI of your draft genome and other Accumulibacter references is between ~75%-100% ANI, this probably falls between the established Accumulibacter lineage.  
 
-2. Search for the _ppk1_ gene using the `ppk1.hmm` With HMMER, you can search with the `hmmsearch` function using as a first-pass an e-value of 1e-50. Usually the top-scoring hit is what you want. 
+2. Search for ppk1 hits using the `ppk1.hmm` With HMMER, you can search with the `hmmsearch` function using as a first-pass an e-value of 1e-50. Usually the top-scoring hit is what you want. For this you will need to search against predicted proteins of your candidate genomes. After identifying putative hits, you will need to identify the corresponding open reading frame of the protein hit to use combine with references and make a tree. As explained below, this is done because the original clone sequences used to make clade designations are impartial nucleotide sequences, and therefore a nucleotide alignment and tree is made. All reference sequences in the HMM model are complete protein sequences retrieved from genomes of Accumulibacter that have been verified using this method and by ANI comparisons.  
 
-3. Combine your _ppk1_ sequences with the clone and genome accession references. Align with `muscle` or `mafft`. This is done because some of the clone sequences are partial, and therefore left as nucleotides. 
+3. Combine your _ppk1_ open reading frame (nucleotide) sequences with the clone and genome accession references. Align with `muscle` or `mafft`. This is done because some of the clone sequences are partial, and therefore left as nucleotides. 
 
 4. Create a phylogenetic tree in nucleotide mode. I would recommend RAxML, as a nucleotide tree with this few sequences doesn't take that long and provides more confidence than something like FastTree. In a tree viewer, root the tree at the clade where the outgroup sequences are (usually very obvious, long branches). Visualize where your sequences fall in relation to previously designated clade boundaries. Clade assignments to _ppk1_ sequences from reference genomes and clones are given in the `ppk1-database-info.csv` file. 
 
@@ -40,4 +40,4 @@ To see an example of using the database and complete methods, see McDaniel and M
 
 [4] Camejo PY, Owen BR, Martirano J, Ma J, Kapoor V, Santo Domingo J, McMahon KD, Noguera DR. 2016. Candidatus Accumulibacter phosphatis clades enriched under cyclic anaerobic and microaerobic conditions simultaneously use different electron acceptors. Water Res 102:125–137
 
-[5] McDaniel E, Moya-Flores F, Keene Beach N, Oyserman B, Kizaric M, Hoe Khor E, McMahon KD. 2020. Metabolic differentiation of co-occurring Accumulibacter clades revealed through 1 genome-resolved metatranscriptomics 2 3. bioRxiv 2020.11.23.394700.
+[5] McDaniel E, Moya-Flores F, Keene Beach N, Oyserman B, Kizaric M, Hoe Khor E, McMahon KD. 2020. Metabolic differentiation of co-occurring Accumulibacter clades revealed through genome-resolved metatranscriptomics. mSystems 2021.
